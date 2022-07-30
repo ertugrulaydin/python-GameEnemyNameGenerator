@@ -3,7 +3,7 @@ import random
 vowels = ("A","E","I","O","U")
 consonants = ("B","C","D","F","G","H","J","K","L","M","N","P","R","Q","S","T","V","W","X","Y","Z")
 
-nameLong = 4
+nameLong = random.randint(3,5)
 name = ""
 
 for i in range(nameLong):
